@@ -1,0 +1,215 @@
+/*CSS BLOCK Styles*/
+
+body {
+	background-color: #ffffff;
+	font: 12px Helvetica Neue, Arial, Helvetica, Geneva, sans-serif;
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* The Following elements are class based formatting elements. */
+
+
+.header {
+	width: 100%;
+	height: 260px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	display: block;
+	background-color: #ffffff;
+}
+
+.headersection {
+	width: 1000px;
+	height: 260px;
+	padding: 0;
+	position: relative;
+	display: block;
+	margin: 0px auto 0;
+	background-color: #ffffff;
+}
+
+
+
+.imagebar {
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	display: block;
+	background-color: #ffffff;
+	background-image:url('arth2.jpg');
+	margin-top: 260px;
+}
+
+
+
+.maincontainerindex {
+	width: 1000px;
+	height: 700px;
+	padding: 0;
+	position: static;
+	display: block;
+	background-color: #ffffff;
+	margin: 580px auto 0;
+}
+
+.maincontainerindexabsolute {
+	width: 1000px;
+	height: 700px;
+	padding: 0;
+	position: absolute;
+	display: block;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+.maininteriorindexright {
+	width: 730px;
+	height: 700px;
+	padding: 0;
+	border: 0;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 270px;
+	position: absolute;
+	display: block;
+	background-color: #ffffff;
+}
+
+.maininteriorindexleft {
+	width: 230px;
+	height: 700px;
+	padding: 0;
+	border: 0;
+	top: 0px;
+	right: 770px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute;
+	display: block;
+	background-color: #ffffff;
+}
+
+
+
+
+
+/*CSS Image Styles*/
+
+img  {
+	border: 0;
+}
+
+
+
+
+
+/*CSS Link Styles*/
+
+a:link {
+	color:#00c7fc;
+	font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-decoration:none;
+	}
+
+a:visited {
+	color:#00c7fc;
+	font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-decoration:none;
+	}
+
+a:hover {
+	color:#929292;
+	font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-decoration:none;
+	}
+
+a:active {
+	color:#00c7fc;
+	font: bold 18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-decoration:none;
+	}
+
+
+
+a.sidebar:link {
+	color:#929292;
+	font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 2px;
+	text-decoration:none;
+	}
+
+a.sidebar:visited {
+	color:#929292;
+	font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 2px;
+	text-decoration:none;
+	}
+
+a.sidebar:hover {
+	color:#00c7fc;
+	font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 2px;
+	text-decoration:none;
+	}
+
+a.sidebar:active {
+	color:#929292;
+	font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 2px;
+	text-decoration:none;
+}
+
+
+
+
+
+
+/*CSS Text Styles*/
+
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+
+p {
+	/*font based properties*/
+    font: 18px Helvetica Neue, Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    direction: ltr;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 10px;
+    text-shadow: /*h-shadow*/1px/*v-shadow*/1px/*blur*/0px/*color*/#ffffff;
+    text-transform: none;
+    vertical-align: baseline;
+    word-spacing: 1px;
+    /*block based properties*/
+	padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+	padding-left: 0px;
+    margin: 0px;
+    border: 0px;
+}
